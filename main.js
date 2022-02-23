@@ -4,11 +4,15 @@ var Micon = document.getElementById("Micon");
 var image = document.getElementById("image");
 
 function music(){
-    if(Foryou.paused){
+    if(Foryou.paused)(a==1){
         Foryou.play();
         myAudio.loop = true;
+         document.getElementById("image").style.display="none";
+        return a=0;
     }
-    else{Foryou.pause();}
+    else{Foryou.pause();
+        document.getElementById("image").style.display="block";
+        return a=1;}
 
 }
 
