@@ -6,6 +6,7 @@ var image = document.getElementById("image");
 function music(){
     if(Foryou.paused){
         Foryou.play();
+        myAudio.loop = true;
     }
     else{Foryou.pause();}
 
