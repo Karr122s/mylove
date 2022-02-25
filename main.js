@@ -2,12 +2,13 @@ var a;
 var Foryou = document.getElementById("Foryou");
 var Micon = document.getElementById("Micon");
 var image = document.getElementById("image");
-Foryou.volume = 0.5;
+
 
 function music(){
     if(Foryou.paused){
         Foryou.play();
         Foryou.loop = true;
+        Foryou.volume = 0.3;
     }
     else{Foryou.pause();
         return a=1;}
