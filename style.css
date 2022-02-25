@@ -16,7 +16,7 @@
 }
 
 .logo{
-    width: 40%;
+    width: 50%;
     margin: auto;
     display: flex;
 
@@ -25,14 +25,18 @@
 .content{
     width: 100%;
     position: absolute;
-    top: 10%;
+    top: 5%;
+    margin: auto;
+    float: center;
 }
 .left-col{
     margin-left: 6%;
+    float: left;
 }
 .left-col h1{
     font-size: 70px;
-    color: brown;
+    font-family: sans-serif;
+    color: rgb(208, 241, 19);
     line-height: 1.6;
     float: left;
 }
@@ -42,7 +46,7 @@
     margin-top: 5px;
     display: flex;
     align-items: center;
-    border-radius: 10%;
+    border-radius: 5%;
 }
 #Micon{
     width: 200px;
@@ -50,7 +54,7 @@
 }
 #image{
     width: 700px;
-    border-radius: 10%;
+    border-radius: 40%;
     display: none;
 }
 #mes{
@@ -71,7 +75,7 @@
     }
     
     .logo{
-        width: 20%;
+        width: 100px;
         margin: auto;
         display: flex;
     
@@ -87,9 +91,10 @@
     }
     .left-col h1{
         font-size: 25px;
-        color: brown;
+        font-family: sans-serif;
+        color: rgb(208, 241, 19);
         line-height: 1.6;
-        float: left;
+        float: center;
     }
     .right-col{
         float: center;
@@ -103,11 +108,11 @@
     }
     #image{
         width: 400px;
-        border-radius: 10%;
+        border-radius: 20%;
         display: none;
     }
     #mes{
-        width: 30px;
+        width: 50px;
         cursor: pointer;
     }
     
