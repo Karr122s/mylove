@@ -8,7 +8,7 @@ function music(){
     if(Foryou.paused){
         Foryou.play();
         Foryou.loop = true;
-        Foryou.volume = 0.3;
+        Foryou.volume = 0.2;
     }
     else{Foryou.pause();
         return a=1;}
