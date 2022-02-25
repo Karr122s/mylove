@@ -36,7 +36,7 @@
 .left-col h1{
     font-size: 70px;
     font-family: sans-serif;
-    color: rgb(208, 241, 19);
+    color: black;
     line-height: 1.6;
     float: left;
 }
@@ -92,7 +92,7 @@
     .left-col h1{
         font-size: 25px;
         font-family: sans-serif;
-        color: rgb(208, 241, 19);
+        color: Black;
         line-height: 1.6;
         float: center;
     }
